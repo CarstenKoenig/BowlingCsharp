@@ -1,24 +1,8 @@
-﻿using System;
 using NUnit.Framework;
 
-namespace Bowling
+namespace Bowling.Tests
 {
-   public class Bowling
-   {
-      private int _score;
-      public void AddThrow(int pin)
-      {
-         _score += pin;
-      }
-
-      public int CalculateScore()
-      {
-         return _score;
-      }
-   }
-
-   [NUnit.Framework.TestFixture]
-   public class Tests
+   public class BowlingTests
    {
       [NUnit.Framework.Test]
       public void GrünerTest()
